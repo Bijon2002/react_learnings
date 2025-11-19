@@ -3,8 +3,10 @@ import React from "react";
 class Apple extends React.Component
 {
          render(){
+            const {appleinfo} = this.props;
+            const {type, color} = appleinfo;
              return(
-                 <h1>this is apple component</h1>
+                 <h1>im a {color} {type} apple </h1>
              );
          }
 }

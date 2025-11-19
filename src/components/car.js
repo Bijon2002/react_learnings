@@ -1,9 +1,18 @@
 //any file name  you can give
 
-function Car()
+function Car(props)
 {
+  // const {brand, color} = props;
+  const {carinfo} = props;
+  const {brand, color} = carinfo;
+
+  // const {appleinfo} = props;
+  // const {type, colors} = appleinfo;
+
+  const test = `hii im a ${color} ${brand} car `;
+  
   return(
-    <h1>hello world</h1>
+    <h1>{test}</h1>
   );
 }
 
