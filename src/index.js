@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Gar from './components/gar';
+import Header from './components/header';
 
 
 
@@ -12,7 +13,8 @@ import Gar from './components/gar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Gar/>
+    {/* <Gar/> */}
+    <Header/>
   </React.StrictMode>
 );
 
