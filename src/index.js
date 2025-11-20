@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Gar from './components/gar';
-import Header from './components/header';
+//import Gar from './components/gar';
+//import Header from './components/header';
+import Favouritecolor from './components/favouritecolor';
 
 
 
@@ -13,8 +14,9 @@ import Header from './components/header';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Favouritecolor/>
     {/* <Gar/> */}
-    <Header/>
+    {/* <Header/> */}
   </React.StrictMode>
 );
 
