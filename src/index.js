@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 //import Gar from './components/gar';
 //import Header from './components/header';
 import Favouritecolor from './components/favouritecolor';
+import Bus from "./components/Bus";
 
 
 
@@ -15,6 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Favouritecolor/>
+    <Bus/>
     {/* <Gar/> */}
     {/* <Header/> */}
   </React.StrictMode>
