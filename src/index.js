@@ -8,6 +8,8 @@ import reportWebVitals from './reportWebVitals';
 import Favouritecolor from './components/favouritecolor';
 import Bus from "./components/Bus";
 
+  import Scooter from './components/Scooter';
+
 
 
 
@@ -17,6 +19,7 @@ root.render(
   <React.StrictMode>
     <Favouritecolor/>
     <Bus/>
+    <Scooter/>
     {/* <Gar/> */}
     {/* <Header/> */}
   </React.StrictMode>
