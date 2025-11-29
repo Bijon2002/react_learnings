@@ -17,7 +17,7 @@ import Bar from './components/Bar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
     <Favouritecolor/>
     <Bus/>
     <Scooter/>
@@ -25,7 +25,7 @@ root.render(
     <Bar/>
     {/* <Gar/> */}
     {/* <Header/> */}
-  </React.StrictMode>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
