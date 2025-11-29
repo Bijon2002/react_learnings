@@ -9,6 +9,7 @@ import Favouritecolor from './components/favouritecolor';
 import Bus from "./components/Bus";
 
   import Scooter from './components/Scooter';
+import Bar from './components/Bar';
 
 
 
@@ -20,6 +21,8 @@ root.render(
     <Favouritecolor/>
     <Bus/>
     <Scooter/>
+
+    <Bar/>
     {/* <Gar/> */}
     {/* <Header/> */}
   </React.StrictMode>
